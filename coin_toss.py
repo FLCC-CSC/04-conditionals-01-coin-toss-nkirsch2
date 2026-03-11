@@ -7,8 +7,15 @@
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
+import random
 
+# Flip a coin (1 is Heads, 2 is Tails)
+coin = random.randint(1, 2)
 
+if coin == 1:
+    print("Heads")
+else:
+    print("Tails")
 
 
 
@@ -43,7 +50,7 @@ Tails
 '''
 
 1. What was the hardest part of completing this lab? 
-
+the hardest part was debugging the infinite loop
 
 
 
